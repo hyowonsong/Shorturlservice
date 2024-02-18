@@ -1,2 +1,4 @@
-package kr.co.shorturlservice.domain;public class LackOfShortenUrlKeyException {
+package kr.co.shorturlservice.domain;
+
+public class LackOfShortenUrlKeyException extends RuntimeException{
 }
